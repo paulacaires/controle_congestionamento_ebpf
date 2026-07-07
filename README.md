@@ -67,4 +67,7 @@ ls -lh /sys/kernel/btf/vmlinux
 bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
 ```
 
+## Segunda etapa: Mapa por conexão
+Implementar a `struct flow_key` e `struct tcp_metrics` exatamente como `BPF_MAP_TYPE_HASH`.
+
 

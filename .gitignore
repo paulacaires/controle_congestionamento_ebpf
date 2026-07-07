@@ -1,6 +1,5 @@
-*
-!Makefile
-!README.md
-!tcp_co.bpf.c
-!tcp_co.c
-!.gitignore
+vmlinux.h
+*.skel.h
+*_output.csv
+*.o
+tcp_co
